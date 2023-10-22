@@ -1,0 +1,24 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+$body-font-family: 'Manrope', sans-serif;
+$font-size-root: 18px;
+$heading-font-family: 'Manrope', sans-serif;
+
+.v-application {
+    h1, h2, h3, h4, h5 {
+        font-family: $heading-font-family !important;
+        font-weight: 400;
+        // line-height: 1;
+        color: #0A2C4F;
+    }
+    p {
+        font-family: $body-font-family !important;
+        font-size: 13px;
+        color: #0A2C4F;
+        line-height: 1;
+    }
+}
